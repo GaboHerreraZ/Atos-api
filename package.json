@@ -1,0 +1,25 @@
+{
+  "name": "atos-api",
+  "version": "1.0.0",
+  "description": "Servicio rest para prueba en Atos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaboHerreraZ/Atos-api.git"
+  },
+  "author": "Gabriel Herrera Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaboHerreraZ/Atos-api/issues"
+  },
+  "homepage": "https://github.com/GaboHerreraZ/Atos-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.15"
+  }
+}
