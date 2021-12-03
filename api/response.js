@@ -1,6 +1,7 @@
-exports.success = function(req, res, message, status) {
+exports.success = function(req, res, message, data, status) {
     res.status(status || 200).send({
         code: status,
+        data: data,
         message: message
     });
 }

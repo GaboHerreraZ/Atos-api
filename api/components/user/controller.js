@@ -1,7 +1,6 @@
 const fetch = require('node-fetch');
 const config =  require('../../../config');
 const PATH =  'users';
-const HEADERS = { 'Content-type': 'application/json; charset=UTF-8' };
 
 
 function getUsers() {
@@ -17,5 +16,5 @@ function getUsersById(id) {
 
 module.exports =  {
     getUsers,
-    getUsersById,
+    getUsersById
 }
